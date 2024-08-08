@@ -1,0 +1,89 @@
+.modal-content{
+  width: 125%;
+}
+
+.btn-close{
+  position: relative;
+  margin-left: 35rem;
+  padding-top: 3vh;
+}
+
+.bgImg {
+  background-image: url('/src/images/leaves.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form_field {
+  color: lightgray;
+  font-size: large
+}
+
+.degree{
+  width: 100%;
+  padding: 5px;
+  background: #e0d5eb;
+}
+
+.selector{
+  padding-bottom: 15px;
+}
+
+.selectorIn{
+  border: none;
+}
+
+.stsearch-box{
+  padding: 0px !important;
+  background-color: #fff !important;
+  border-radius: 8px;
+}
+
+.stsearch-box input{
+  border: none !important;
+}
+
+.stdropdown-menu{
+  color: darkgray;
+}
+
+.checkbox{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 20px 0;
+  color: #4CAF50;
+}
+
+.submit{
+  padding: 5px;
+  width: 10%;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+input {
+  border-radius: 4px;
+  height: 4vh;
+}
+
+.custom-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:   
+ none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:   
+ 4px;
+  cursor: pointer;
+}
+
+/* Dropdown Styling (Optional) */
+select {
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
