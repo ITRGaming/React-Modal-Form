@@ -12,7 +12,7 @@ function App() {
     <div>
       <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary "
         data-bs-toggle="modal"
         data-bs-target="#formModal"
       >
@@ -20,18 +20,18 @@ function App() {
       </button>
 
       <div
-        class="modal fade"
+        className="modal fade"
         id="formModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-          <div class="modal-content bgImg">
-            <div class="modal-header">
+        <div className="modal-dialog modal-dialog-centered modal-xl">
+          <div className="modal-content bgImg">
+            <div className="modal-header">
             <button
                       type="button"
-                      class="btn-close"
+                      className="btn-close btn-close-white"
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
@@ -140,8 +140,8 @@ function App() {
                       WhatsApp, and/or email.
                     </p>
                   </div>
-                  <div class="modal-footer row">
-                    <button type="submit" class="btn btn-primary col-md custom-button">
+                  <div className="modal-footer row">
+                    <button type="submit" className="btn btn-primary col-md custom-button">
                       Submit
                     </button>
                   </div>
